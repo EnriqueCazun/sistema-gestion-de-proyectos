@@ -1,0 +1,63 @@
+.profile-container.card {
+  max-width: 500px;
+  margin: 20px auto;
+  padding: 30px 25px;
+  background: #fafafa;
+  border-radius: 16px;
+  box-shadow: 0 12px 35px rgba(0,0,0,0.08);
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #111;
+}
+
+.profile-container h2 {
+  text-align: center;
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 25px;
+  color: #111;
+}
+
+.profile-field {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 18px;
+}
+
+.profile-field label {
+  font-size: 14px;
+  font-weight: 600;
+  color: #222;
+  margin-bottom: 6px;
+}
+
+.profile-field input {
+  padding: 12px;
+  font-size: 14px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  background: #fff;
+  color: #111;
+  transition: all 0.3s ease;
+}
+
+.profile-field input:focus {
+  outline: none;
+  border-color: #000;
+}
+
+.profile-container button {
+  padding: 12px;
+  background: #000;
+  color: #fff;
+  font-weight: 600;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  text-transform: uppercase;
+  transition: all 0.3s ease;
+}
+
+.profile-container button:hover {
+  background: #222;
+  transform: translateY(-1px);
+}
